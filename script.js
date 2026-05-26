@@ -148,7 +148,7 @@ function setupScrollAnimations ()
     {
        const scrolled = window.pageYOffset;
        const hero = document.querySelector('.hero');
-       const parallaxSpeed = 0.5s;
+       const parallaxSpeed = 0.5;
 
       if(hero)
         {
