@@ -5,7 +5,8 @@ document.addEventListener('DOMContentLoaded',function()
     createParticles();
     initializeAnimations();
     setupScrollAnimations();
- }
+ });
+
 
  function createParticles ()
    {
