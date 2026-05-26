@@ -191,7 +191,7 @@ function setupScrollAnimations ()
         const x = e.clientX - rect.left - size / 2;
         const y = e.clientY - rect.top - size / 2;
 
-        ripple.style.cssText =
+        ripple.style.cssText =`
          position: absolute;
          width: ${size}px;
          height: ${size}px;
@@ -203,7 +203,7 @@ function setupScrollAnimations ()
          animation: ripple 0.6s ease-out;
          pointer-events: none;
 
-        ;
+        `;
 
         this.style.position = 'relative';
         this.style.overflow = 'hidden';
