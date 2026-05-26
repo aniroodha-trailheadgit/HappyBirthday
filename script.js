@@ -1,6 +1,6 @@
 
 
-document.addEventListener('DOMContentLoaded',function())
+document.addEventListener('DOMContentLoaded',function()
  {
     createParticles();
     initializeAnimations();
